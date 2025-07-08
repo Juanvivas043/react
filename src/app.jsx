@@ -1,7 +1,7 @@
 import './TwitterFollowCard.css'
 import {TwitterFollowCard} from './TwitterFollowCard.jsx'
 
-export function App () {
+function App () {
 
     const users = [
         {
@@ -37,5 +37,6 @@ export function App () {
             ))}
         </section>
         
-    )
+    )    
 }
+export default App;
